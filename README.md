@@ -14,7 +14,7 @@
  - Supports common lossless image formats (PNG, BMP).
  - Clean & beginner-friendly code structure.
 
-## 🧠 How it works
+## 🧠 How It Works
 
  - Each character is converted into an **8-bit binary representation**.
  - Binary bits are embedded into the **LSBs of RGB pixel values**.
@@ -73,7 +73,7 @@
 
 ## 📏 Data Capacity
 
- - Each charater requires **3 pixels**
+ - Each character requires **3 pixels**
  - Maximum characters supported:
 
    ```text
@@ -85,7 +85,7 @@
 ## ⚠️ Limitations
 
  - No encryption applied to hidden data.
- - image resizing, compression, or re-saving may corrupt hidden data.
+ - Image resizing, compression, or re-saving may corrupt hidden data.
  - Works best with **lossless image formats**.
  - Intended for educational & learning purposes only.
 
